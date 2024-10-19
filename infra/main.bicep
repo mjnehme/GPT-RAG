@@ -365,7 +365,7 @@ var _searchAnalyzerName = !empty(searchAnalyzerName) ? searchAnalyzerName : 'sta
 param useSemanticReranking bool = true
 var _useSemanticReranking = useSemanticReranking != null ? useSemanticReranking : true
 
-var _searchServiceSkuName = _networkIsolation?'standard2':'free'
+var _searchServiceSkuName = _networkIsolation?'standard2':'standard'
 
 @description('Search index name.')
 param searchIndex string = ''
